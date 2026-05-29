@@ -16,13 +16,12 @@ dirsize/
 │   ├── FileSystemServiceTest.java
 │   └── CommandParserTest.java
 ├── dirsize.jar                 Pre-built runnable jar
-├── build.sh                    Build script (Mac/Linux)
 └── build.bat                   Build script (Windows)
 ```
 
 ## Requirements
 
-- Java 11 or higher (no Maven needed)
+- Java 11 or higher
 
 ## Run (pre-built jar)
 
@@ -32,11 +31,6 @@ java -jar dirsize.jar --no-seed    # start with empty file system
 ```
 
 ## Build from source
-
-**Mac/Linux:**
-```bash
-chmod +x build.sh && ./build.sh
-```
 
 **Windows:**
 ```
